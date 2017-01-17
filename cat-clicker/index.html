@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script async src = main.js></script>
+    <style>
+        .container {
+            display: flex;
+/*            border: 5px green solid;*/
+        }
+        #catList {
+            display: flex;
+            flex-direction: column;
+/*            border: 5px purple solid;*/
+            width: 7%;
+            float: left;
+        }
+        .catIcon {
+            cursor: pointer;
+            max-width: 100px;
+        }
+        .frame {
+            margin: auto;
+            text-align: center;
+        }
+        #catPicture {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+<body>
+        <div id="catList">
+            <img class="catIcon cat0" src="images/cat-0.jpg">
+            <img class="catIcon cat1" src="images/cat-1.png">
+            <img class="catIcon cat2" src="images/cat-2.jpg">
+            <img class="catIcon cat3" src="images/cat-3.jpg">
+            <img class="catIcon cat4" src="images/cat-4.jpg">
+        </div>
+    
+    <div class="container">
+        <div class="frame">
+            <h1>Cat Clicker Premium!</h1>
+            <img id="catPicture" src="images/shrug.jpg">
+            <h2 id="name"></h2> 
+        </div>
+    </div>
+
+
+
+
+</body>
